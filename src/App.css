@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans Tangsa', sans-serif;
+  background-color: #f9fafb;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  transition: 1s;
+}
+
+header {
+  width: 100%;
+  padding: 10px 30px;
+  border-bottom: 1px solid #d1d5db;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.redes {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+}
+
+.redes a {
+  font-size: 1.8rem;
+  color: #717477;
+}
+
+.generator_container {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.control_container {
+  width: 33.3%;
+  padding: 10px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.control_text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.control_input_px {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.control_input_px input {
+  width: 45px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px -3px gray;
+}
+
+input[type='range'] {
+  width: 70%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.draw_container {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #d1d5db;
+  background-color: #fff;
+}
+
+.box_info{
+  width: 80%;
+  padding: 20px;
+  background-color:#d1d5db;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.box_controls_container {
+  width: 33.3%;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px 0px 0px 8px;
+}
