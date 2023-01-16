@@ -18,8 +18,8 @@ const Generator = () => {
       <header>
         <h3>Box Shadow Generator </h3>
         <div className="redes">
-          <a href="#" target={'_blank'}><i class="fa-brands fa-github"></i></a>
-          <a href="#" target={'_blank'}><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/RonnyPomasqui27" target={'_blank'}><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/pomasqui-ronny-46ab6a219/" target={'_blank'}><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </header>
       {/* <div className="titles">
